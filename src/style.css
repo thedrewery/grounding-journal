@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: white;
+    
+}
+.header {
+        display: 'flex';
+        flex-direction: 'row';
+        justify-content: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+.textarea {
+    size: 500px 500px;
+}
