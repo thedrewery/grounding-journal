@@ -11,6 +11,9 @@ app.use(express.json());
 mongoose.connect('mongodb+srv://theDrewery:&useHim22@cluster0.ep39u.mongodb.net/JournalDB');
 //require route
 
+app.use('/', require('./routes/entriesRoute'));
+
+
 app.listen(3001, function () {
     console.log("express server is running on port 3001");
 })

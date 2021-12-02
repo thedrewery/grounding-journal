@@ -1,9 +1,14 @@
+h1 {
+    color: rgb(22, 58, 58);
+}
+
 body {
     display: flex;
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
-    background-color: white;
+    background-color: rgb(228, 214, 214);
+    color: rgb(22, 58, 58);
     
 }
 .header {
@@ -12,6 +17,13 @@ body {
         justify-content: center;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
-.textarea {
-    size: 500px 500px;
+
+.textAreaAutoSize {
+    color: rgb(22, 102, 122);
+    
+}
+
+.button {
+    color: rgb(73, 150, 223);
+
 }
