@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import { bulkSave } from '../models/entriesModel.js';
 import Journal from './Journal.jsx';
 import style from './style.css'
 
@@ -20,7 +21,7 @@ const styles = {
   container: {
     display: 'flex',
     flexDirection: 'row',
-    justifyContent: 'center',
+        justifyContent: 'center',
   },
 };
 

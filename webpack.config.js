@@ -29,6 +29,18 @@ module.exports = {
       },
     ]
   },
+  // devServer: {
+  //   static: {
+  //     directory: path.join(__dirname, 'dist/'),
+  //     publicPath: '/',
+  //     filename: 'bundle.js'
+  //   },
+  //   proxy: {
+  //     '/api': 'http://localhost:3001'
+  //   },
+  //   port: 8080,
+  //   hot: true
+  // },
   plugins: [
     new HtmlWebpackPlugin({
       template: path.join(__dirname, "src", "index.html"),
